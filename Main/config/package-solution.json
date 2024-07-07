@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cg-main-client-side-solution",
+    "id": "0aaf93f3-3c67-4d60-b260-0a013a11edc6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cg-main description"
+      },
+      "longDescription": {
+        "default": "cg-main description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cg-main Feature",
+        "description": "The feature that activates elements of the cg-main solution.",
+        "id": "0fe3e1e4-dbfd-4fef-9e52-910024adae3b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cg-main.sppkg"
+  }
+}

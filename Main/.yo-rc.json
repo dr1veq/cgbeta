@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "18.20.3",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.19.0",
+    "libraryName": "cg-main",
+    "libraryId": "0aaf93f3-3c67-4d60-b260-0a013a11edc6",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cg-main",
+    "solutionShortDescription": "cg-main description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

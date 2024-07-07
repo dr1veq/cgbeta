@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+  background-color: #1a1a2e;
+  padding: 20px;
+  color: white;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.linkItem {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.socialIcon {
+  width: 24px;
+  height: auto;
+}
+
+.separator {
+  position: absolute;
+  right: -10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: white;
+}

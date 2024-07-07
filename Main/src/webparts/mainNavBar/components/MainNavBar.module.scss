@@ -1,0 +1,25 @@
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  padding: 10px 0;
+  color: black;
+}
+
+.navLink {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  color: black;
+  margin: 0 5px;
+}

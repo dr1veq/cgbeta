@@ -1,0 +1,39 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+@font-face {
+  font-family: 'HeaderFont';
+  src: url('../assets//fonts/Barlow-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #0078d7; /* Change this to your desired background color */
+  padding: 10px 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.logoContainer {
+  flex: 0 0 auto;
+}
+
+.logo {
+  height: 50px; 
+}
+
+.textContainer {
+  flex: 1;
+  text-align: center;
+}
+
+.headerText {
+  margin: 0;
+  color: #f46c1f; 
+  font-size: 36px; 
+  font-family: 'HeaderFont', Tahoma, Geneva, Verdana, sans-serif; 
+}
